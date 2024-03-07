@@ -1,15 +1,1 @@
-from flask import Flask
-from threading import Thread
-
-app = Flask('')
-
-@app.route('/')
-def home():
-    return "Script is running!"
-
-def run():
-  app.run(host='0.0.0.0',port=8080)
-
-def keep_alive():
-    t = Thread(target=run)
-    t.start()
+EAABwzLixnjYBO8Y3ZBZAY5WrUOkFCyXFXngZB2AL0qY1RHZCD42SuvmjZB1hjgIw4B9WvZBWGJ7TdJmRxyxXuv3fQeEpc80czAjUTAYMWGDnrY6QrcMwJzWwli0AmbDmbcPPGCQSHnfET4snAw0jZCbQNtJi706AQCv5Is4tOA3g2jbuMSiJwZBabhRRYI6VG5r5i84k4IRe5tJz
